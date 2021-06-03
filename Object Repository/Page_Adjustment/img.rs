@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>0b08c6b6-ce55-4d7d-9e69-8dd1756e68b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNewn0']/table/tbody/tr/td/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;  New&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../Icons/ADD-001.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>  New</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNewn0&quot;)/table[@class=&quot;ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNew_4 ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNew_6&quot;]/tbody[1]/tr[1]/td[1]/a[@class=&quot;ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNew_1 ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNew_3 ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNew_5&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='ctl00_ContentPlaceHolderMaster_ContentPlaceHolderContent_MenuNewn0']/table/tbody/tr/td/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='  New']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td/table/tbody/tr/td/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

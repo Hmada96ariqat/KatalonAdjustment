@@ -26,8 +26,8 @@ WebUI.maximizeWindow()
 //Credintials
 WebUI.setText(findTestObject('Object Repository/Page_Login Page/input_Sign in as a power user_TextBoxUserName'), 'administrator')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page/input_Sign in as a power user_TextBoxPassword'),
-	'/5S6MFFLcE4mlsixtc6/Tg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page/input_Sign in as a power user_TextBoxPassword'), 
+    '/5S6MFFLcE4mlsixtc6/Tg==')
 
 //Navigating to Adjustment
 WebUI.click(findTestObject('Object Repository/Page_Login Page/input_Please type your email address_ButtonSignIn'))
@@ -77,4 +77,31 @@ WebUI.click(findTestObject('Object Repository/Page_Adjustment/a_4_2'))
 
 //Save and close
 WebUI.click(findTestObject('Object Repository/Page_Adjustment/input_Type_ctl00ContentPlaceHolderMasterCon_8f7081'))
+
+//Filter
+WebUI.setText(findTestObject('Object Repository/Page_Adjustment/Adjustment_Desc'), 'Adj_test_desc')
+
+WebUI.click(findTestObject('Object Repository/test/Page_Adjustment/input_Adjustment Type_ctl00ContentPlaceHold_2cefbc'))
+
+WebUI.scrollToElement(findTestObject('Page_Adjustment/span_Contains'), 1)
+
+WebUI.click(findTestObject('Object Repository/Page_Adjustment/a_Implemenation'))
+
+//WebUI.selectOptionByLabel(findTestObject('Object Repository/test/Page_Adjustment/span_Contains'), 'Contains', false)
+//WebUI.click(findTestObject('Object Repository/Page_Adjustment/Contains'))
+//Handling Iframe area
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Adjustment/Ledger'), '2801', true)
+
+WebUI.selectOptionByIndex(findTestObject('Iframe_Handling/Page_Adjustment/newCurr'), '72')
+
+WebUI.selectOptionByIndex(findTestObject('Iframe_Handling/Page_Adjustment/newAcc'), '6')
+
+WebUI.selectOptionByIndex(findTestObject('Iframe_Handling/Page_Adjustment/Iframe_AccKey'), '2')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Adjustment/Credit'), 1000)
+
+
+
+
+
 
